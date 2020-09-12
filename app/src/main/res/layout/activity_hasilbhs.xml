@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilbhsActivity"
+    android:id="@+id/hasilbhs">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BAHASA INDONESIA"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/salmon"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relayHasilbhs"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txtHasilbhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Hasil"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/btnMainmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/salmon"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/ic_home"
+            android:textSize="70dp" />
+        <Button
+            android:id="@+id/btnPenjbhs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/salmon"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="440dp"
+            android:drawableLeft="@drawable/ic_bahas"
+            android:textSize="70dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/salmon"/>
+    </RelativeLayout>
+</RelativeLayout>

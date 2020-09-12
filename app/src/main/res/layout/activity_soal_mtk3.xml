@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soal_mtk3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoalMtk3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MATEMATIKA"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/lemon"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relaymtk3"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <TextView
+            android:id="@+id/txtSoalmtk3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="3. Di perpustakaan sekolah terdapat 24 rak buku. Setiap rak berisi 85 buku. Buku-buku tersebut dikelompokkan dalam kategori komik, ensiklopedia, novel, cerpen, agama, dan majalah. Berapa banyak buku dalam setiap kategori, bila jumlah buku untuk setiap kategori sama banyak?"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtSoalmtk3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/rgSoalmtk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoalmtk3"
+            android:layout_marginTop="30dp">
+            <RadioButton
+                android:id="@+id/rdbA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.040 buku."
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.040 buku."
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="340 buku."
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="34 buku."
+                android:textSize="20sp" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnNext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/lemon"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/ic_next"
+            android:textSize="70dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/lemon"/>
+    </RelativeLayout>
+</RelativeLayout>

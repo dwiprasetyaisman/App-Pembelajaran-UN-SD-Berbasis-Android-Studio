@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soal_bhs9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoalBhs9Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BAHASA INDONESIA"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/salmon"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relaybhs9"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txtSoalbhs9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="9. Siswa SD Hebat sedang belajar di dalam kelas. Tiba-tiba terdengar suara sirine. Anak-anak segera berlindung di kolong meja sambil melindungi kepala bagian belakang. Bapak dan ibu guru juga melakukan hal yang sama. Sesaat kemudian terdengar bunyi sirine kedua. Anak-anak segera ke luar kelas menuju halaman. Hari itu semua warga SD Hebat sedang mengikuti simulasi gempa. \n \n Mengapa siswa SD Hebat masuk ke kolong meja ketika mendengar sirine pertama? \n Siswa SD Hebat masuk ke kolong meja karena ... "
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtSoalbhs9"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/rgSoalbhs9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoalbhs9"
+            android:layout_marginTop="30dp">
+            <RadioButton
+                android:id="@+id/rdbA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Takut mendengar sirine berbunyi"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mengikuti perintah bapak dan ibu guru"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mengikuti tanda simulasi terjadinya gempa"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingin melindungi badan dan kepala"
+                android:textSize="20sp" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnNext9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/salmon"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/ic_next"
+            android:textSize="70dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/salmon"/>
+    </RelativeLayout>
+</RelativeLayout>

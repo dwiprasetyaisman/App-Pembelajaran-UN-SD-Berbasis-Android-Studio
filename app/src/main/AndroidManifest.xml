@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unmis">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launc"
+        android:label="UN MIs-Nurhidayah"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".SoalBhs30Activity"></activity>
+        <activity android:name=".SoalBhs29Activity" />
+        <activity android:name=".SoalBhs28Activity" />
+        <activity android:name=".SoalBhs27Activity" />
+        <activity android:name=".SoalBhs26Activity" />
+        <activity android:name=".SoalBhs25Activity" />
+        <activity android:name=".SoalBhs24Activity" />
+        <activity android:name=".SoalBhs23Activity" />
+        <activity android:name=".SoalBhs22Activity" />
+        <activity android:name=".SoalBhs21Activity" />
+        <activity android:name=".SoalBhs20Activity" />
+        <activity android:name=".SoalBhs19Activity" />
+        <activity android:name=".SoalBhs17Activity" />
+        <activity android:name=".SoalBhs18Activity" />
+        <activity android:name=".SoalBhs16Activity" />
+        <activity android:name=".SoalBhs15Activity" />
+        <activity android:name=".SoalBhs14Activity" />
+        <activity android:name=".SoalBhs13Activity" />
+        <activity android:name=".SoalBhs12Activity" />
+        <activity android:name=".SoalBhs11Activity" />
+        <activity android:name=".SoalMtk29Activity" />
+        <activity android:name=".SoalMtk30Activity" />
+        <activity android:name=".SoalMtk28Activity" />
+        <activity android:name=".SoalMtk27Activity" />
+        <activity android:name=".SoalMtk26Activity" />
+        <activity android:name=".SoalMtk25Activity" />
+        <activity android:name=".SoalMtk24Activity" />
+        <activity android:name=".SoalMtk23Activity" />
+        <activity android:name=".SoalMtk22Activity" />
+        <activity android:name=".SoalMtk21Activity" />
+        <activity android:name=".SoalMtk20Activity" />
+        <activity android:name=".SoalMtk19Activity" />
+        <activity android:name=".SoalMtk18Activity" />
+        <activity android:name=".SoalMtk17Activity" />
+        <activity android:name=".SoalMtk16Activity" />
+        <activity android:name=".SoalMtk15Activity" />
+        <activity android:name=".SoalMtk14Activity" />
+        <activity android:name=".SoalMtk13Activity" />
+        <activity android:name=".SoalMtk12Activity" />
+        <activity android:name=".SoalMtk11Activity" />
+        <activity android:name=".SoalIpa30Activity" />
+        <activity android:name=".SoalIpa29Activity" />
+        <activity android:name=".SoalIpa28Activity" />
+        <activity android:name=".SoalIpa27Activity" />
+        <activity android:name=".SoalIpa26Activity" />
+        <activity android:name=".SoalIpa24Activity" />
+        <activity android:name=".SoalIpa25Activity" />
+        <activity android:name=".SoalIpa23Activity" />
+        <activity android:name=".SoalIpa22Activity" />
+        <activity android:name=".SoalIpa21Activity" />
+        <activity android:name=".SoalIpa20Activity" />
+        <activity android:name=".SoalIpa19Activity" />
+        <activity android:name=".SoalIpa18Activity" />
+        <activity android:name=".SoalIpa17Activity" />
+        <activity android:name=".SoalIpa16Activity" />
+        <activity android:name=".SoalIpa15Activity" />
+        <activity android:name=".SoalIpa14Activity" />
+        <activity android:name=".SoalIpa13Activity" />
+        <activity android:name=".SoalIpa12Activity" />
+        <activity android:name=".SoalIpa11Activity" />
+        <activity android:name=".PenjmtkActivity" />
+        <activity android:name=".HasilmtkActivity" />
+        <activity android:name=".SoalMtk10Activity" />
+        <activity android:name=".SoalMtk9Activity" />
+        <activity android:name=".SoalMtk8Activity" />
+        <activity android:name=".SoalMtk7Activity" />
+        <activity android:name=".SoalMtk6Activity" />
+        <activity android:name=".SoalMtk5Activity" />
+        <activity android:name=".SoalMtk4Activity" />
+        <activity android:name=".SoalMtk3Activity" />
+        <activity android:name=".SoalMtk2Activity" />
+        <activity android:name=".PenjipaActivity" />
+        <activity android:name=".HasilipaActivity" />
+        <activity android:name=".SoalIpa10Activity" />
+        <activity android:name=".SoalIpa9Activity" />
+        <activity android:name=".SoalIpa8Activity" />
+        <activity android:name=".SoalIpa7Activity" />
+        <activity android:name=".SoalIpa6Activity" />
+        <activity android:name=".SoalIpa5Activity" />
+        <activity android:name=".SoalIpa4Activity" />
+        <activity android:name=".SoalIpa3Activity" />
+        <activity android:name=".SoalIpa2Activity" />
+        <activity android:name=".PenjbhsActivity" />
+        <activity android:name=".HasilbhsActivity" />
+        <activity android:name=".SoalBhs10Activity" />
+        <activity android:name=".SoalBhs9Activity" />
+        <activity android:name=".SoalBhs8Activity" />
+        <activity android:name=".SoalBhs7Activity" />
+        <activity android:name=".SoalBhs6Activity" />
+        <activity android:name=".SoalBhs5Activity" />
+        <activity android:name=".SoalBhs4Activity" />
+        <activity android:name=".SoalBhs3Activity" />
+        <activity android:name=".SoalBhs2Activity" />
+        <activity android:name=".SoalBhs1Activity" />
+        <activity android:name=".SoalMtk1Activity" />
+        <activity android:name=".TentangActivity" />
+        <activity android:name=".SoalIpa1Activity" />
+        <activity android:name=".BantuanActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Soal UN MIs-Nurhidayah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

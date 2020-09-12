@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tentang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TENTANG"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/hijaumuda"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relaytentang"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/txtTentang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="0dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/logo"
+            android:text="Aplikasi ini berisi tentang soal-soal untuk siswa/siswi MIs-Nurhidayah agar dapat belajar sebelum menghadapi ujian yang sesungguhnya. "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/btnMainmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/hijaumuda"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="220dp"
+            android:drawableLeft="@drawable/ic_home"
+            android:textSize="60dp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/hijaumuda"/>
+    </RelativeLayout>
+</RelativeLayout>

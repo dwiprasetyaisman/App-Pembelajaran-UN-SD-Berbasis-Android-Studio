@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_soal_mtk28"
+    tools:context=".SoalMtk28Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MATEMATIKA"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/lemon"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relaymtk"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <TextView
+            android:id="@+id/txtSoalmtk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="28. 26 + (-19) - (-42) : 7 + (-12) =..."
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtSoalmtk"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/rgSoalmtk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoalmtk"
+            android:layout_marginTop="30dp">
+            <RadioButton
+                android:id="@+id/rdbA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-5"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-17"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/lemon"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/ic_next"
+            android:textSize="70dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/lemon"/>
+    </RelativeLayout>
+</RelativeLayout>

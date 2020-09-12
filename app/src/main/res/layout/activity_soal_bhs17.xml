@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoalBhs17Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BAHASA INDONESIA"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/salmon"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relaybhs"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/txtSoalbhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="17. Hari Minggu  kakakku pergi ke supermarket. Di sana sedang ada...sepatu. Kakakku sangat tertarik untuk membelinya. Potongan harga yang ditawarkan pun sangat menggiurkan. Akhirnya kakak membeli sepasang sepatu berwarna biru.\n \n Istilah yang tepat untuk melengkapi bacaan tersebut adalah...."
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtSoalbhs"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/rgSoalbhs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoalbhs"
+            android:layout_marginTop="30dp">
+            <RadioButton
+                android:id="@+id/rdbA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="doorprize"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="promo"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="diskon"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="obral"
+                android:textSize="20sp" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/salmon"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/ic_next"
+            android:textSize="70dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/salmon"/>
+    </RelativeLayout>
+</RelativeLayout>

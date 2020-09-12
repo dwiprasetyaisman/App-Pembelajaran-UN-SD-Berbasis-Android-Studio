@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soal_ipa1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoalIpa1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ILMU PENGETAHUAN ALAM"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/oren"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relayipa1"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <TextView
+            android:id="@+id/txtSoalipa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Hubungan antara lebah dan bunga dalam simbiosis yang benar adalah .... "
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtSoalipa1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/rgSoalipa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoalipa1"
+            android:layout_marginTop="30dp">
+
+            <RadioButton
+                android:id="@+id/rdbA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga mendapat makanan dari lebah"
+                android:textSize="20sp" />
+
+
+            <RadioButton
+                android:id="@+id/rdbB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lebah bisa membuat sarang di dalam bunga "
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lebah membantu penyerbukan bunga"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lebah mengambil benang sari bunga sebagai makanannya"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnNext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/oren"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/ic_next"
+            android:textSize="70dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/oren"/>
+    </RelativeLayout>
+
+</RelativeLayout>

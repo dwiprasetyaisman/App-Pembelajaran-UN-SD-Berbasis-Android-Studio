@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoalBhs25Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="BAHASA INDONESIA"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/salmon"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relaybhs"
+        android:layout_width="wrap_content"
+        android:layout_height="850dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/txtSoalbhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="25. Sudah 9 tahun aku bekerja di sini. Semua pengalaman manis dan pahit sudah kualami. Bekerja di daerah terpencil hingga dimaki habis-habisan oleh pimpinan sudah pernah kurasakan. Sayangnya, aku harus berhenti kerja di sini. Bukan karena tidak betah, tetapi karena aku harus mengejar cita-citaku sejak masih kuliah ,yaitu menjadi dosen. Mengajar mahasiswa merupakan tugas seorang dosen.\n \n Kalimat yang tidak padu pada paragraf di atas adalah..."
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtSoalbhs"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/rgSoalbhs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoalbhs"
+            android:layout_marginTop="30dp">
+            <RadioButton
+                android:id="@+id/rdbA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semua pengalaman manis dan pahit sudah kualami."
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bekerja di daerah terpencil hngga dimaki oleh pimpinan sudah pernah kurasan."
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sayangnya, aku harus berhenti kerja di sini"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rdbD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mengajar mahasiswa merupakan tugas seorang dosen."
+                android:textSize="20sp" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/salmon"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="770dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/ic_next"
+            android:textSize="70dp" />
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="2dp"
+            android:layout_marginTop="770dp"
+            android:background="@color/salmon"/>
+    </RelativeLayout>
+</RelativeLayout>
